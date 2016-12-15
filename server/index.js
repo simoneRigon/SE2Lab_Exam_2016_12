@@ -272,3 +272,14 @@ app.listen(app.get('port'), function() {
 });
 
 //AGGIUNGERE QUI SOTTO NUOVE FUNZIONI
+
+app.post('/searchByMarck', function(request, response){
+	var criteria;
+	
+	if ( typeof request.body.ID !== 'undefined' && request.body.ID)
+            {
+			 criteria = request.body.criteria;
+            }
+		else 
+			studentID = "not defined";
+});

@@ -134,7 +134,17 @@ var insertStudent = function insertStudent(student)
 }
 
 //AGGIUNGERE QUI SOTTO NUOVE FUNZIONI
+var studentListMark = [];
 
+var searckByMark = function searchByMark(mark)
+{
+	
+	for(int i=0; i<studentList.length; i++){
+		if(){
+			studentiListMark.push(studentList[i]);		
+		}	
+	}
+}
 
 
 //export functions
