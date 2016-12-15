@@ -154,3 +154,5 @@ exports.deleteStudentID = deleteStudentID;
 exports.deleteStudentSSN = deleteStudentSSN; 
 exports.insertStudent = insertStudent;  
 exports.getList = getList; 
+exports.searchByMark = searchByMark;
+exports.studentListMark = studentListMark;
